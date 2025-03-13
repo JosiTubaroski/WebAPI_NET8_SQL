@@ -4,25 +4,15 @@
 *.suo
 *.user
 *.userosscache
-*.sln.docstates
 *.cache
 *.bak
 
 # Build e binários
-bin/
-obj/
 out/
 
 # Dependências do NuGet
 *.nupkg
 packages/
-project.lock.json
-project.assets.json
-
-# Configurações locais
-appsettings.Development.json
-appsettings.Local.json
-secrets.json
 
 # Logs e Debug
 *.log
@@ -44,6 +34,5 @@ node_modules/
 *.temp
 *.swp
 *.swo
-*.sln.metaproj
 
 

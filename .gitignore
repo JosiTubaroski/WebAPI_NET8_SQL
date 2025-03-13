@@ -1,0 +1,49 @@
+# Arquivos e pastas do Visual Studio e Rider
+.vs/
+.idea/
+*.suo
+*.user
+*.userosscache
+*.sln.docstates
+*.cache
+*.bak
+
+# Build e binários
+bin/
+obj/
+out/
+
+# Dependências do NuGet
+*.nupkg
+packages/
+project.lock.json
+project.assets.json
+
+# Configurações locais
+appsettings.Development.json
+appsettings.Local.json
+secrets.json
+
+# Logs e Debug
+*.log
+debug/
+crash-reports/
+hs_err_pid*.log
+
+# Docker
+docker-compose.override.yml
+**/Dockerfile
+**/docker-compose*
+
+# Arquivos gerados automaticamente
+Generated/
+node_modules/
+
+# Arquivos temporários
+*.tmp
+*.temp
+*.swp
+*.swo
+*.sln.metaproj
+
+
